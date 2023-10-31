@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS</title>
+</head>
+
+<body>
+    <h1>formを使ったデータ送信</h1>
+
+    <form action="" method="get">
+        <button type="submit">送信　Enter　發送</button>
+    </form>
+
+    <h2>GETデータの送信</h2>
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q">
+        <button type="submit">送信</button>
+    </form>
+
+    <h2>formの部品について</h2>
+    <form action="http://click.ecc.ac.jp/ecc/sakakura/ponpoko.php" method="post">
+        <h3>inputの種類</h3>
+        <p>テキストボックス</p>
+            <input 
+            type="text" 
+            name="text" 
+            value=""　
+            placeholder="keyword"
+            required
+            > 
+        
+        <p>パスワード</p>
+            <input type="password" name="pass" value="" required>
+
+        <P>メールアドレス</P>
+            <input type="email"
+            name="email"
+            value=""
+            placeholder="example@ecc.ac.jp"
+            >
+        
+        <p>チェックボックスーcheckbox</p>    
+            <laabel>
+                <input type="checkbox" name="food[]" value="1">apple
+            </laabel>
+
+            <input type="checkbox" name="food[]" id="check2" value="2">
+            <label for="check2">banana</label>
+
+
+        <p>ラジオボタンーRadio</p>
+            <label>
+                <input type="radio" name="position" value="1">ピッチャー
+            </label>
+            <label>
+                <input type="radio" name="position" value="2" checked>キャッチャー
+            </label>
+            <label>
+                <input type="radio" name="position" value="3">野手
+            </label>
+
+
+        <p>日付</p>
+            <input type="date" name="date" value="2021-05-31" min="2021-05--1" max="2021-05-31">
+
+        
+
+        <h3>select / option</h3>
+        <select name="pref">
+            <option>-------</option>
+            <option value="1"　selected>大阪</option>
+            <option value="2">京都</option>
+            <option value="3">和歌山</option>
+            <option value="4">兵庫</option>
+            <option value="5">奈良</option>
+            <option value="6">滋賀</option>
+        </select>  
+        
+        <h3>テキストエリア</h3>
+        <textarea name="note"　cols="30" rows="5">
+        好きなコメントをお願いします。
+        </textarea>
+
+        <h3>ボタン</h3>
+        <button type="submit">送信</button>
+        <button type="reset">リセット</button>
+        <button type="button">ボタン</button>
+
+    </form>
+
+    <h2>ファイルの送信</h2>
+    <form action="http://click.ecc.ac.jp/ecc/sakakura/ponpoko.php" 
+        method="post" 
+        enctype="multipart/form-data">
+    <input type="file" name="file">
+    <button type="submit">アップロード</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Style Sheet Sample</title>
+<!-- ここにスタイルシートを読み込むlink1要素を追加する -->
+<link href="css/sample-07.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrap">
+	<h1>ダイナミック・ウェブデザイン</h1>
+	<p>閲覧者や時に応じたコンテンツをアクセス時に生成する方法には2種類ある。</p>
+	
+	<h2>サーバサイド</h2>
+	<p>WWWサーバ側に用意した特別なソフトウェアにより、ユーザのリクエストに応じたHTMLページを自動的にその場で生成する。ソフトウェアは各種プログラミング言語により作成されることが多い。また、各種データベースを利用することも多い。</p>
+
+	<div id="frame">
+		<h3>主フレームワーク</h3>
+		<ul id="framework">
+		    <li class="first">ASP</li>
+		    <li>JSP（詳しくはJava Servlet、Javaを参照）</li>
+		    <li>ColdFusion</li>
+		</ul>
+	</div>
+	<h3>主な言語</h3>
+	<ul>
+		<li class="first">Perl言語</li>
+		<li>PHP言語</li>
+		<li>Python言語</li>
+		<li>Ruby言語</li>
+	</ul>
+
+	<h3>主なデータベース</h3>
+	<ul>
+		<li class="first">MySQL</li>
+		<li>PostgreSQL</li>
+		<li>Oracle Database</li>
+		<li>Firebird</li>
+		<li>HSQLDB</li>
+		<li>Apache Derby</li>
+		<li>XMLをHTMLに変換することも行われる</li>
+		<li>XSLT</li>
+	</ul>
+    <h2>クライアントサイド</h2>
+    <p>サーバから発信した情報をクライアントサイド（ブラウザやリッチクライアント環境）が様々に解釈して動的なページを実現する。サーバからスクリプトやアプレットを含めたコンテンツを送り、クライアント側でそのスクリプトやアプレットを実行する。これによりHTMLでは表現できない装飾や動的なページが表現される。クライアント側で用いられる代表的なスクリプト言語はJavaScriptである。実行結果が実行環境に依存するため、金銭を扱う場合など僅かな間違いも許されないような場合には使用されることは少ない。また、SEOやアクセシビリティにおいて様々な問題がある。使用する場合は、代替テキストなどが推奨される。</p>
+</div>
+</body>
+</html>

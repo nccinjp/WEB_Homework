@@ -1,0 +1,56 @@
+body{
+    background-color:#f0ffba;
+    background-image: url(../images/kadai08_back.jpg);
+    background-position: left top;
+    font-family:monospace,sans-serif;
+    font-size: 100%;
+    padding:20px;
+}
+
+.title{
+    color: #3f200e;
+    font-size: 20px;
+    border-bottom: 3px solid #8f7517;
+}
+
+.sub-title{
+    color: #3f200e;
+    font-size: 16px;
+    padding-left: 5px;
+    border-left: 3px solid #8f7517;
+}
+
+.set{
+    border:1px dotted #453933;
+    padding: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+
+}
+#drink{
+    text-align: right;
+}
+
+.set p{
+    font-size: 0.7rem;
+    margin: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.set img{
+    background-color: #fff;
+    padding: 2px;
+    border:1px solid #bebebe;
+}
+
+.item-title{
+    background-color: #281105;
+    color: #fff;
+    padding: 0.3px;
+}

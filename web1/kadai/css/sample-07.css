@@ -1,0 +1,39 @@
+/*
+    全称セレクタ
+    すべてのタグ
+*/
+* {
+    margin: 0;
+}
+
+/*
+    タイプセレクタ
+    タグの種類
+*/
+h1{
+    font-size: 100%;
+}
+/*
+    IDセレクタ
+    タグのID属性の名前
+*/
+#framework{
+    list-style: none;
+}
+/*
+    classセレクタ
+    タグのclass属性の名前
+*/
+.first{
+    color:tomato;
+    font-family: serif;
+}
+/*
+    子孫セレクタ
+    タグの中にあるタグ
+*/
+#framework .first{
+    color:skyblue;
+    text-decoration: underline;
+}
+

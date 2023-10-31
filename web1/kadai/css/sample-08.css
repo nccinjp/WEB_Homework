@@ -1,0 +1,46 @@
+body{
+    height: 500vh;
+    background-color: rgb(161, 235, 253);
+    background-image: url(../images/sakura.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-attachment: fixed; 　/*背景画像の固定表示*/
+    background-size: cover;
+
+}
+
+h1{
+    background-color: #fff;
+}
+
+.over{
+    height: 2em;
+    background: #fff;
+    overflow: hidden; 　/*要素からはみ出た部分の処理*/
+}
+
+#box1{
+    background: tomato;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+    border-left: 6px solid #600;
+    border-bottom: 3px dotted #600;
+}
+
+#box2{
+    background-color: rgb(131, 209, 240);
+    margin: 40px;
+
+    border-top:3px dashed #333;
+    border-bottom:3px dashed #333;
+}
+
+#box3{
+    background-color: lemonchiffon;
+    margin:70px 200px;
+    padding:15px 25px;
+    border:3px dotted #616;
+}

@@ -1,0 +1,49 @@
+h1{
+    width: 20%;
+    height:200px;
+    border:2px solid lightcoral;
+}
+
+.box1{
+    width: 248px;
+    padding:25px;
+    border:1px solid slateblue;
+}
+
+.box2{
+    width: 300px;
+    padding: 25px;
+    border:1px solid rgb(125, 185, 224);
+}
+
+.pos1,.pos2,.pos3{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;  //因為這格高度設定值為一百所以當lineheight值設定一百時字體自動置中
+}
+.pos1{
+    position: relative;
+    top: 0;
+    left: 150px;
+    background-color: plum;
+}
+.pos2{
+    top: 0;
+    left: 150px;
+    background-color: rebeccapurple;
+}
+.pos3{
+    top: 0px;
+    left: 150px;
+    background-color: rgb(125, 185, 224);
+}
+.pos1 span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 0;
+}

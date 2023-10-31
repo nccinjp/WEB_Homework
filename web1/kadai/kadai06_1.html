@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT | スローライフカフェ</title>
+</head>
+
+<body>
+    <p>
+        <img 
+        src="images/kadai04_logo.png"
+        alt="ecc.web.kadai05_2.cafe.logo"
+        >
+    </p>
+    
+    <ul>
+        <li>Home</li>
+        <li>Food</li>
+        <li>Drink</li>
+        <li>Dessert</li>
+        <li>Access</li>
+        <li>SHOP INFORMATION</li>
+    </ul>
+
+    <p>
+        <img 
+        src="images/kadai06_contact.jpg"
+        alt="スローライフカフェへのお問い合わせ"
+        width="850"
+        height="370"
+        >
+    </p>
+
+    <p>スローライフカフェへのお問い合わせはこちらから</p>
+    
+    <form action="http://nt24.ecc.ac.jp/~sk1a23/kadai06_2.php" method="post" novalidate>
+    
+    <table>
+    <tr>     
+        <th>お名前（必須）</th> 
+            <td>
+            <input 
+            type="text" 
+            name="name" 
+            value=""　
+            placeholder="ECC太郎"
+            required
+            ></td>     
+    </tr>
+     
+    <tr>     
+        <th>メールアドレス（必須）</th> 
+            <td>
+            <input type="mail"
+            name="email"
+            value=""
+            placeholder="example@ecccomp.com"
+            required
+            ></td>     
+    </tr>
+    
+    <tr>
+        <th>お問い合わせ内容について</th>
+            <td>
+            <label><input type="radio" name="category" value="1" checked>カフェについて</label>
+            <label><input type="radio" name="category" value="2">その他 </label>
+            </td>
+    </tr>
+
+    <tr>
+        <th>お得な情報</th>
+            <td>
+                <laabel>
+                <input type="checkbox" name="deals" value="1">お得な情報を希望する
+                </laabel>
+            </td>
+    </tr>
+
+    <tr>
+        <th>メッセージ</th>
+            <td>
+            <textarea name="content"　cols="100" rows="5"></textarea>
+            </td>
+    </tr>    
+
+    <tr>
+        <td><a href="#">プライバシーポリシーの確認はこちら</a></td>
+    </tr>    
+    </table>
+        <button colspan="2" type="submit">送信する</button>
+    </form>
+
+</body>
+</html>

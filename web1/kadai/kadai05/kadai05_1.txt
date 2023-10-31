@@ -1,0 +1,10 @@
+基本16色
+色名	色コード	色名	色コード
+black（黒）	#000000	green（緑）	#008000
+silver（銀）	#c0c0c0	lime（ライム）	#00ff00
+gray（灰）	#808080	olive（オリーブ）	#808000
+white（白）	#ffffff	yellow（黄）	#ffff00
+maroon（えび茶）	#800000	navy（紺）	#000080
+red（赤）	#ff0000	blue（青）	#0000ff
+purple（紫）	#800080	teal（青緑）	#008080
+fuchsia（紫紅)	#ff00ff	aqua（水）	#00ffff

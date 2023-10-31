@@ -1,0 +1,48 @@
+/*
+前面符號表是
+# ----> ID用
+. ----> class用
+要素前面甚麼都可以不用加
+*/
+
+#title{
+    font-family:Arial,sans-serif;
+    color: #00baff;
+    font-size: 4em;
+    letter-spacing: .3em;
+    text-align: center;
+}
+
+p{
+    line-height: 1.5;
+    text-indent: 1em;
+}
+
+.sub-title{
+    color: #2bc;
+    font-size: 18px;
+}
+
+em{
+    color: #22f;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.keyword {
+    color: #f2b;
+    font-family:"Times New Roman","Times",serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*keyword クラス
+文字色#f2b
+文字フォントTimes New Roman　Times　セリフ体
+文字スタイル斜体
+文字の装飾下線*/
+
+#copyright{
+    font-size: 10px;
+    text-align: center;
+}
